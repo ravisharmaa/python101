@@ -24,9 +24,7 @@ class MyInteger:
             val = int(val)
         except ValueError:
             return
-
         self.val = val
-
 
     def get_val(self):
         return self.val

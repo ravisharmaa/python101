@@ -16,4 +16,9 @@ class Joe(object):
 joe_obj = Joe()
 print(joe_obj.greeting)
 
+# whenever instance method is called from the object's members the instance is
+# passed implicitly.
+
 joe_obj.call_me_from_the_class()
+
+

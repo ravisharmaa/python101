@@ -12,7 +12,7 @@ class MyNum:
         self.val = self.val + 100
 
 
-my_num = MyNum()
+my_num = MyNum(10)
 my_num.increment()
 my_num.increment()
 

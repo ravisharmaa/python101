@@ -1,5 +1,5 @@
 # class is an instance factory
-# class define an instance blueprint
+# class defines an instance blueprint
 
 
 class MyClass(object):
