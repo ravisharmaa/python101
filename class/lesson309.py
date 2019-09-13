@@ -2,16 +2,16 @@ class MaxSizeList:
 
     def __init__(self, length):
         self.length = length
-        self.itemList = []
+        self.item_list = []
 
     def push(self, content):
-        if len(self.itemList) >= self.length:
-            return self.itemList
+        if len(self.item_list) >= self.length:
+            return self.item_list
 
-        return self.itemList.append(content)
+        return self.item_list.append(content)
 
     def get_list(self):
-        return self.itemList
+        return self.item_list
 
 
 a = MaxSizeList(3)
